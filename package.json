@@ -3,6 +3,7 @@
   "description": "Functional component based React app using Props, State, Routers (client side routers) practices implementing basic form + Light/Dark Mode Switch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harsh-vishwakarma.github.io/react-class-component/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
