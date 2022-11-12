@@ -33,6 +33,9 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo build starts here!
+          npm install --only=prod
+          echo npm install finished
+          echo running build
           npm run build
           echo build completed
           # echo installing serve
