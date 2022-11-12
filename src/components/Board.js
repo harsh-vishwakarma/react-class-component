@@ -88,7 +88,7 @@ export class Board extends Component {
                     &nbsp;of {this.state.totalProfiles}
                     &nbsp; ( Page {this.state.page} of {this.state.totalPages} )
                 </div>
-                <div className='container d-flex justify-content-end'>
+                <div className='container d-flex justify-content-end mb-2'>
                     <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             Page Size
@@ -106,6 +106,10 @@ export class Board extends Component {
                     <button disabled={this.state.page <= 1 } type="button" className="btn btn-dark ms-2" onClick={this.handlePrevClick}>&larr; Previous</button>
                     <button disabled={this.state.page + 1 > this.state.totalPages} type="button" className="btn btn-dark ms-2" onClick={this.handleNextClick}>Next &rarr;</button>
                 </div>
+                <div className="container d-flex justify-content-end mb-2">
+                    <strong> Yes server side pagination!</strong>
+                </div>
+
             </div>
         )
     }
