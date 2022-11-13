@@ -3,3 +3,17 @@
         padding-top: 0.5rem;
     }
  }
+ .card-bg{
+    /* background-color: rgb(237 244 255); */
+    /* background-color: rgb(200 246 249); */
+    background-color: white;
+    color: rgb(7 60 139);
+ }
+
+ .small-text{
+    font-size: 0.8rem;
+ }
+
+ .main-container {
+    background-color: rgb(219 254 255);
+ }
