@@ -75,7 +75,7 @@ export class Board extends Component {
                 <h2>Contacts</h2>
                 <div className='row my-3'>
                     { this.state.profiles.map((profile) => {
-                        return <div className='col-md-4' key={profile.id}> 
+                        return <div className='col-md-6 col-xl-4 ' key={profile.id}> 
                             <Profile firstName={profile.first_name} lastName={profile.last_name} email={profile.email} avatar={profile.avatar}/>
                         </div>
                     })
