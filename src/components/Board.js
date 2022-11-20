@@ -85,7 +85,7 @@ export class Board extends Component {
 
     render() {
         return (
-            <div className='container-fluid main-container'>
+            <div className='container-fluid main-container p-1'>
                 <div className='container my-3 pb-1'>
                     <h2>Contacts</h2>
                     <div className='row my-3'>

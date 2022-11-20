@@ -1,3 +1,5 @@
+# React Class based Component ![GitHub release (latest by date)](https://img.shields.io/github/v/release/harsh-vishwakarma/react-class-component)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
