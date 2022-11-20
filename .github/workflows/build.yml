@@ -36,7 +36,7 @@ jobs:
           npm install --only=prod
           echo npm install finished
           echo running build
-          npm run build
+          CI=false npm run build
           echo build completed
           # echo installing serve
           # npm install -g serve
